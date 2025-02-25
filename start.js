@@ -15,7 +15,7 @@ module.exports = {
         env: { },                   // Edit this to customize environment variables (see documentation)
         path: "app/gradio",                // Edit this to customize the path to start the shell from
         message: [
-          "python t2v_14B_singleGPU.py --prompt_extend_method local_qwen --ckpt_dir ../../{{args.model}}"
+          "python {{args.file}} --prompt_extend_method local_qwen --ckpt_dir ../../{{args.model}}"
 
         ],
         on: [{

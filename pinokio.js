@@ -61,6 +61,7 @@ module.exports = {
           text: "Text to Video 14B",
           href: "start.js",
           params: {
+            file: "t2v_14B_singleGPU.py",
             model: "Wan2.1-T2V-14B" 
           }
         }, {
@@ -68,6 +69,7 @@ module.exports = {
           text: "Text to Video 1.3B",
           href: "start.js",
           params: {
+            file: "t2v_1.3B_singleGPU.py",
             model: "Wan2.1-T2V-1.3B" 
           }
         }, {
@@ -75,6 +77,7 @@ module.exports = {
           text: "Image to Video 720P",
           href: "start.js",
           params: {
+            file: "i2v_14B_singleGPU.py",
             model: "Wan2.1-I2V-14B-720P"
           }
         }, {
@@ -82,6 +85,7 @@ module.exports = {
           text: "Image to Video 480P",
           href: "start.js",
           params: {
+            file: "i2v_14B_singleGPU.py",
             model: "Wan2.1-I2V-14B-480P"
           }
         }, {
