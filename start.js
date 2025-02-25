@@ -4,11 +4,12 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        venv: "env",                // Edit this to customize the venv folder path
+        venv: "../env",                // Edit this to customize the venv folder path
         env: { },                   // Edit this to customize environment variables (see documentation)
-        path: "app",                // Edit this to customize the path to start the shell from
+        path: "app/gradio",                // Edit this to customize the path to start the shell from
         message: [
-          "python app.py",    // Edit with your custom commands
+          "python t2v_14B_singleGPU.py --prompt_extend_method 'local_qwen' --ckpt_dir ../Wan2.1-T2V-14B"
+
         ],
         on: [{
           // The regular expression pattern to monitor.
