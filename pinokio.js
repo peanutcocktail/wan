@@ -57,10 +57,33 @@ module.exports = {
         }]
       } else {
         return [{
-          default: true,
           icon: "fa-solid fa-power-off",
-          text: "Start",
+          text: "Text to Video 14B",
           href: "start.js",
+          params: {
+            model: "Wan2.1-T2V-14B" 
+          }
+        }, {
+          icon: "fa-solid fa-power-off",
+          text: "Text to Video 1.3B",
+          href: "start.js",
+          params: {
+            model: "Wan2.1-T2V-1.3B" 
+          }
+        }, {
+          icon: "fa-solid fa-power-off",
+          text: "Image to Video 720P",
+          href: "start.js",
+          params: {
+            model: "Wan2.1-I2V-14B-720P"
+          }
+        }, {
+          icon: "fa-solid fa-power-off",
+          text: "Image to Video 480P",
+          href: "start.js",
+          params: {
+            model: "Wan2.1-I2V-14B-480P"
+          }
         }, {
           icon: "fa-solid fa-plug",
           text: "Update",
