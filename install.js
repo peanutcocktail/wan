@@ -6,7 +6,8 @@ module.exports = {
       params: {
         message: [
           //"git clone https://github.com/Wan-Video/Wan2.1 app",
-          "git clone https://github.com/peanutcocktail/Wan2.1 app",
+          //"git clone https://github.com/peanutcocktail/Wan2.1 app",
+          "git clone -b optimized https://github.com/envy-ai/Wan2.1-quantized app",
         ]
       }
     },
